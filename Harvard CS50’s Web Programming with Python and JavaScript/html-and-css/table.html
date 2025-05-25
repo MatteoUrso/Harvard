@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Table</title>
+        <style>
+            table {
+                border: 1px solid black;
+                border-collapse: collapse;
+            }
+
+            td {
+                border: 1px solid black;
+            }
+
+            th {
+                border: 1px solid black;
+            }
+
+            /** Multiple elements selectors */
+            td, th {
+                padding: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <table>
+            <!-- Table Header -->
+            <thead>
+                <tr>
+                    <th>Ocean</th>
+                    <th>Average Depth</th>
+                    <th>Maxmimum Depth</th>
+                </tr>
+            </thead>
+            <!-- Table Body -->
+            <tbody>
+                <tr> <!-- Table Row -->
+                    <td>Pacific Ocean</td> <!-- Table Data -->
+                    <td>12,080 feet</td>
+                    <td>36,070 feet</td>
+                </tr>
+                <tr>
+                    <td>Atlantic Ocean</td>
+                    <td>10,925 feet</td>
+                    <td>27,480 feet</td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>
